@@ -23,8 +23,8 @@ interface NetworkApi {
     ): List<Repository>
 
 
-    @GET("character/?page={number}")
-    suspend fun getCharactersPage(@Path("number") number: Int) : ListCharacters
+    @GET("character/")  // page{number
+    suspend fun getCharactersPage(@Query("page") number: Int) : ListCharacters
 
 
 }
