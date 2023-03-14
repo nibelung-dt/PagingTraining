@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtErrorMsg" type="id" />
+    <item name="progressBar" type="id" />
+    <item name="btnRetry" type="id" />
+</resources>
